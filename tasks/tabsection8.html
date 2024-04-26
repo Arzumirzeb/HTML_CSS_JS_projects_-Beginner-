@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colorful Tab Section</title>
+<style>
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .tab button {
+    background-color: #4CAF50; /* Green */
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.3s;
+    font-size: 18px;
+    border-radius: 5px 5px 0 0;
+    color: white;
+  }
+
+  .tab button:hover {
+    background-color: #45a049;
+  }
+
+  .tab button.active {
+    background-color: #007bff; /* Blue */
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+    font-size: 16px;
+    border-radius: 0 0 10px 10px;
+  }
+</style>
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Tab1')" id="defaultOpen">Tab 1</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab 2</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab 3</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab4')">Tab 4</button>
+  <button class="tablinks" onclick="openTab(event, 'Tab5')">Tab 5</button>
+</div>
+
+<div id="Tab1" class="tabcontent">
+  <h3>Tab 1 Content</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi earum tempore veritatis reiciendis, repudiandae illum neque ut perferendis labore magni, impedit ducimus quos aperiam necessitatibus qui. Ad provident placeat consectetur excepturi aspernatur, modi nobis temporibus alias fuga harum, veritatis ex distinctio impedit ipsam culpa. Voluptate consectetur inventore saepe tempore suscipit..</p>
+</div>
+
+<div id="Tab2" class="tabcontent">
+  <h3>Tab 2 Content</h3>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil sit molestias, perferendis soluta doloremque ad dicta officiis consectetur odio delectus similique obcaecati, architecto est maxime quis hic eum illum rem.
+  </p>
+</div>
+
+<div id="Tab3" class="tabcontent">
+  <h3>Tab 3 Content</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus sequi alias qui rem eveniet quisquam, tempora excepturi explicabo quod? Fugiat praesentium quisquam nihil iusto facere repudiandae aspernatur dolore, recusandae optio tempora animi. Velit reiciendis iusto nostrum doloremque, illo eum porro eaque ut amet quae explicabo modi. Qui tenetur error non!</p>
+</div>
+
+<div id="Tab4" class="tabcontent">
+  <h3>Tab 4 Content</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, mollitia consequuntur labore quia delectus, culpa suscipit fuga assumenda eveniet numquam, laudantium consectetur cum eius fugit recusandae laboriosam qui omnis. Nulla explicabo voluptates, aut reiciendis itaque repellendus magni quam blanditiis natus modi earum dolores! Ipsam, sunt aliquam saepe repudiandae enim blanditiis!</p>
+</div>
+
+<div id="Tab5" class="tabcontent">
+  <h3>Tab 5 Content</h3>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum nihil libero esse dolore velit, dignissimos animi. Ratione itaque, doloremque praesentium tenetur eaque velit voluptatum numquam officiis consequuntur, libero eos, magni rem incidunt aliquid soluta molestias reiciendis accusantium quidem enim atque explicabo et sequi expedita! Harum deserunt doloremque sequi aut exercitationem.</p>
+</div>
+
+<script>
+  function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+
+  document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
