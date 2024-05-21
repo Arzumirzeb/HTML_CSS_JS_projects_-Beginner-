@@ -1,6 +1,6 @@
 using System;
 
-class Program
+class Program11
 {
     static void Main()
     {
@@ -11,14 +11,12 @@ class Program
 
         Console.WriteLine("Input " + n + " number of elements in the array:");
 
-        // Read elements into the array
         for (int i = 0; i < n; i++)
         {
             Console.Write("element - " + i + " : ");
             array[i] = int.Parse(Console.ReadLine());
         }
 
-        // Display elements in reverse order
         Console.WriteLine("\nThe elements in reverse order:");
 
         for (int i = n - 1; i >= 0; i--)

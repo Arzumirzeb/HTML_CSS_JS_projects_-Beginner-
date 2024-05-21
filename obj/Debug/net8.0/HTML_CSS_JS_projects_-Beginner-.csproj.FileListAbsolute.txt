@@ -1,0 +1,5 @@
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\obj\Debug\net8.0\HTML_CSS_JS_projects_-Beginner-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\obj\Debug\net8.0\HTML_CSS_JS_projects_-Beginner-.AssemblyInfoInputs.cache
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\obj\Debug\net8.0\HTML_CSS_JS_projects_-Beginner-.AssemblyInfo.cs
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\obj\Debug\net8.0\HTML_CSS_JS_projects_-Beginner-.csproj.CoreCompileInputs.cache
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\obj\Debug\net8.0\HTML_CSS_JS_projects_-Beginner-.sourcelink.json
