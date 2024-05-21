@@ -1,0 +1,15 @@
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\c#.AssemblyInfoInputs.cache
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\c#.AssemblyInfo.cs
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\c#.csproj.CoreCompileInputs.cache
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\c#.sourcelink.json
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\bin\Debug\net8.0\c#.exe
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\bin\Debug\net8.0\c#.deps.json
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\bin\Debug\net8.0\c#.runtimeconfig.json
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\bin\Debug\net8.0\c#.dll
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\bin\Debug\net8.0\c#.pdb
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\c#.dll
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\refint\c#.dll
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\c#.pdb
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\c#.genruntimeconfig.cache
+C:\Users\Arzum\HTML_CSS_JS_projects_-Beginner-\c#\obj\Debug\net8.0\ref\c#.dll
